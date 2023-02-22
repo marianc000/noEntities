@@ -1,0 +1,115 @@
+* {
+    font-family: Arial;
+    color: darkslategrey;
+}
+
+.row>div {
+    display: inline-block;
+}
+
+.country {
+    width: 6em
+}
+
+.author,.liked  {
+    width: 11em;
+}
+
+
+.post {
+    width: 15em;
+}
+
+.hiddentrue {
+    visibility: hidden;
+}
+
+.l0 {
+    border-top: 1px solid grey;
+}
+
+
+.country.a0.p0 {
+    visibility: visible;
+}
+
+.country,.author,.post {
+    visibility: hidden;
+}
+
+.author.p0.l0 {
+    visibility: visible;
+}
+.post.l0 {
+    visibility:visible;
+}
+.row.header {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+div#rootDiv {
+    margin: 1em;
+    position: relative;
+}
+
+.table {
+    /* display: inline-block; */
+    padding: 0.5em;
+    vertical-align: top;
+    margin: 1em;
+    /* border: 1px solid gray; */
+}
+
+.caption {
+    font-size: 1.2em;
+    color: brown;
+    margin-bottom: 0.5em;
+}
+
+.row>div {
+    height: 1.2em;
+    vertical-align: middle;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.row.header>div {
+    visibility: visible;
+}
+
+.links a {
+    margin-left: 3em;
+}
+
+.links {
+    position: fixed;
+    background-color: gainsboro;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    padding: 1em 0;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+    white-space: nowrap;
+    padding: 0.2em;
+}
+
+tr:first-child>td {
+    font-weight: bold;
+}
