@@ -1,4 +1,4 @@
-# Using Spring Data with EclipseLink
-How to replace Hibernate with more robust EclipseLink in Spring Boot-based applications
+# Do you really need entity classes?
+Entities are boring, without them you can sometimes save your time
 
-Sample code for my post https://marian-caikovski.medium.com/using-spring-data-with-eclipselink-8aef650eb1d6 about replacing sometimes suboptimal JPA implementation Hibernate with a less aberrant EclipseLink
+Sample code for my post https://marian-caikovski.medium.com/do-you-really-need-entity-classes-d9656534ea82 comparing JPA and JDBC
